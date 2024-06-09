@@ -30,7 +30,7 @@ else{
 }
 }
 if(guess!=randomNum){
-    System.out.println("Oops you have ran out of attempts."+ "\n" + "The correct number was: "+randomNum);
+    System.out.println("Oops! you have ran out of attempts."+ "\n" + "The correct number was: "+randomNum);
 }
 in.nextLine();
 System.out.print("Enter 1 to play again (y/n):");
